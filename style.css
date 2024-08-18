@@ -1,5 +1,7 @@
 .container{
     position: relative;
+    width: 1900px;
+    margin: 0 auto;
 }
 body{
     margin: 0;
@@ -103,7 +105,7 @@ margin-top: 0px;
     position: relative;
     width: 1000px;
     left: 300px;
-    top: 150px;
+    top: 100px;
     letter-spacing: 2px;
     text-align: center;
     font-size: 60px;
@@ -112,7 +114,7 @@ margin-top: 0px;
 
 .images{
     position: relative;
-    top: 50px;
+    top: 10px;
     display: flex;
     gap: 50px;
 }
@@ -219,4 +221,92 @@ margin-top: 0px;
     font-size: 18px;
     letter-spacing: 5px;
     
+}
+.third{
+    position: relative;
+    display: flex;
+    background-color: rgb(16, 20, 16);
+    
+}
+.right-con{
+    height: 1080px;
+    color: white;
+    position: relative;
+}
+
+.right{
+    width: 900px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right h1{
+    font-size: 60px;
+    position: relative;
+    left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 50;
+}
+.right img{
+    position: relative;
+    width: 250px;
+    bottom: 150px;
+}
+
+.left-con{
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    margin: 0 auto;
+}
+.left-con h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.left-con p{
+    font-size: 20px;
+}
+
+.end-con{
+    height: 1080px;
+    background-color: rgba(233, 221, 200, 0.479);
+    display: flex;
+    justify-content: center;
+}
+.contact h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.contact img{
+    position: relative;
+    bottom: 50px;
+    width: 600px; 
+    left: 650px;
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 1900px;
+}
+
+.account h3{
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
