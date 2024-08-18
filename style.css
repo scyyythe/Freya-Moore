@@ -1,6 +1,6 @@
 .container{
-    position: relative;
-    width: 1900px;
+    position: relative;   
+     max-width: 1900px;
     margin: 0 auto;
 }
 body{
@@ -73,7 +73,7 @@ margin-top: 0px;
     align-items: center;
 }
 .info-con{
-    width: 700px;
+    max-width: 700px;
     margin-right: 100px;
     color: white;
 }
@@ -92,7 +92,6 @@ margin-top: 0px;
 
 .service-con{
     height: 1080px;
-    width: 100%;
     background-color: rgba(233, 221, 200, 0.479);
     display: flex;
     justify-content: center;
@@ -117,6 +116,7 @@ margin-top: 0px;
     top: 10px;
     display: flex;
     gap: 50px;
+    max-width:1900px;
 }
 .img1,.img2,.img3{
     height: 700px;
@@ -249,6 +249,7 @@ margin-top: 0px;
     left: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 50;
+
 }
 .right img{
     position: relative;
